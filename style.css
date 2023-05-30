@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2a3471;
+}
+html {
+  font-size: 62.5%;
+}
+.content {
+  margin: auto;
+}
+.contacts {
+  width: 250px;
+  height: 350px;
+  background-color: white;
+  overflow: auto;
+}
+.contacts span{
+  font-size: 18px;
+  display: block;
+  padding: 5px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin: 10px 0;
+}
+.sort-header{
+  position: sticky;
+  top: 0;
+  background-color: orange;
+  text-align: center;
+  padding: 10px;
+}
+.sort-header h2{
+  font-size: 21px;
+}
